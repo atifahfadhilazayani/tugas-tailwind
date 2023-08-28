@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Rank Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="">
+        <!--header-->
+        <div class="bg-red-950 p-3">
+            <h1 class="text-xl text-center text-white">Class Rank Tailwind</h1>
+        </div>
+        <!--main-->
+        <div class="flex">
+            <!--sidebar-->
+            <div class="basis-1/4 bg-red-300  p-3">
+                <div class="bg-slate-200 rounded-xl p-2">
+                    <h1 class="text-xl mb-2">Form Insert Score</h1>
+                <form action="">
+                    <div class="mb-3">
+                        <label for="name">Name</label>
+                        <input class="rounded-xl p-1 block w-full" type="text" id="name" placeholder="Insert Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="score">Score</label>
+                        <input class="rounded-xl p-1 block w-full" type="number" id="score" placeholder="Insert Score">
+                    </div>  
+                    <div class="grid gap-2">
+                    <button class="bg-red-400 hover:bg-red-300 p-2 rounded-xl text-white" type="submit">Submit</button>
+                </div>
+                </form>
+            </div>
+            </div>
+            <!--content-->
+            <div class="basis-3/4 bg-red-400 p-3">
+                <div class="bg-red-300 rounded-xl p-2">
+                    <h1 class="text-xl mb-2">Table Students Score</h1>
+
+                    <table class="w-full">
+                        <thead class="border border-red-300">
+                            <tr class="bg-red-400">
+                                <th class="px-6 py-3">No</th>
+                                <th class="px-6 py-3">Name</th>
+                                <th class="px-6 py-3">Score</th>
+                                <th class="px-6 py-3">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="bg-white border border-gray-500">
+                                <td class="px-6 py-3">1</td>
+                                <td class="text-left">ahn hyo seop</td>
+                                <td>85</td>
+                                <td><button class="bg-red-300 hover:bg-red-400 p-2 rounded-xl text-white ">Edit</button>
+                                    <button class="bg-red-300 hover:bg-red-400 p-2 rounded-xl text-white">Delete</button>
+                                </td>
+                            </tr>
+                            <tr class="bg-white border border-gray-500">
+                                <td class="px-6 py-3">2</td>
+                                <td class="text-left">ji chang wook</td>
+                                <td>85</td>
+                                <td><button class="bg-red-300 hover:bg-red-400 p-2 rounded-xl text-white ">Edit</button>
+                                    <button class="bg-red-300 hover:bg-red-400 p-2 rounded-xl text-white">Delete</button>
+                                </td>
+                            </tr>
+                            <tr class="bg-white border border-gray-500">
+                                <td class="px-6 py-3">3</td>
+                                <td class="text-left">park chanyeol</td>
+                                <td>85</td>
+                                <td><button class="bg-red-300 hover:bg-red-400 p-2 rounded-xl text-white ">Edit</button>
+                                    <button class="bg-red-300 hover:bg-red-400 p-2 rounded-xl text-white">Delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="bg-red-400 p-3 text-center text-white">
+            Copyright &copy; 2023 atifah fadhila z.
+        </div>
+    </div>
+</body>
+</html>
